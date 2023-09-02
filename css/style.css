@@ -1,0 +1,302 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Quicksand;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbox {
+  display: flex;
+  gap: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.navlist {
+  list-style: none;
+}
+
+.nav a {
+  color: rgb(231, 227, 227);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium";
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-image: url(../img/fondohf.png);
+  background-position: bottom;
+  justify-content: space-between;
+}
+
+.divbarraprov {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.divisory {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(216, 211, 211);
+  margin: 20px 0px;
+}
+
+.section_titlecont {
+  display: flex;
+  flex-direction: row;
+
+  width: 80%;
+  margin: 5px 0px;
+}
+
+.section_title {
+  font-size: 50px;
+  border-bottom: 4px solid black;
+}
+
+.home_articlecont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.home_articlecont_rev {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.home_article_title {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.home_article_textcont {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_article_text {
+  font-size: 20px;
+  font-weight: 390;
+}
+
+.home_articleimg {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.pizzabox {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  margin: 10px 0px;
+}
+
+.fotopizza {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.w80 {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.menumain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.menutitlebox {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  /* position: relative; */
+}
+
+.menutitlebox p {
+  margin: 5px 0px;
+}
+
+/* .probando_style {
+  margin-top: 20px;
+} */
+
+.menutitle {
+  margin: 0px;
+  padding-bottom: 10px;
+  /* top: -15px;
+  position: absolute;
+  background-color: white; */
+}
+
+.menurow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 100px;
+}
+
+.menucolumn {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.menubox {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 100%;
+}
+
+.logo {
+  height: 100%;
+}
+
+.videomapbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.videomapcontainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 2px solid rgb(148, 145, 145);
+  margin-bottom: 50px;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.inputtext {
+  border: 1px solid rgb(170, 165, 165);
+  width: 80%;
+  padding: 20px;
+}
+
+.contactbuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 85%;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: #4a4a4a;
+}
+
+.contactbuttons a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.contact_links {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.contact_links a {
+  text-decoration: none;
+  color: aliceblue;
+  border: 2px solid #4a4a4a;
+  background-color: #4a4a4a;
+}
+
+.iframe {
+  width: 100%;
+  margin: 20px 0px 50px;
+}
+
+.video {
+  width: 100%;
+}
+
+.pie {
+  background-image: url(../img/fondohf.png);
+  background-position: center;
+}
+
+.piecontenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 3px;
+  color: rgb(53, 53, 53);
+}
+
+.itempie {
+  color: aliceblue;
+  font-family: "Gill Sans MT";
+  text-transform: uppercase;
+  font-style: oblique;
+  margin: 10px;
+}
