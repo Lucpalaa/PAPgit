@@ -60,10 +60,15 @@ main {
 }
 
 .divisory {
-  width: 100%;
+  width: 90%;
   height: 2px;
   background-color: rgb(216, 211, 211);
   margin: 20px 0px;
+  max-width: 400px;
+}
+
+.escritorioOculto {
+  display: none;
 }
 
 .section_titlecont {
@@ -140,8 +145,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   gap: 20px;
+  width: 100%;
 }
 
 .menutitlebox {
@@ -149,47 +155,64 @@ main {
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
-  /* position: relative; */
+  position: relative;
+  width: 100%;
 }
 
 .menutitlebox p {
   margin: 5px 0px;
 }
 
-/* .probando_style {
-  margin-top: 20px;
-} */
+.probando_style {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  gap: 5px;
+}
+
+.probando_style p {
+  text-align: center;
+  margin: auto;
+}
 
 .menutitle {
   margin: 0px;
   padding-bottom: 10px;
-  /* top: -15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: -15px;
   position: absolute;
-  background-color: white; */
+  background-color: white;
 }
 
 .menurow {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  gap: 100px;
+  width: 100%;
 }
 
 .menucolumn {
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex-grow: 1;
   gap: 20px;
+  width: 100%;
 }
 
 .menubox {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 20px;
   flex-grow: 1;
   align-items: center;
   border: 1px solid black;
-  width: 400px;
+  width: 90%;
   height: 100%;
+  max-width: 400px;
 }
 
 .logo {
@@ -202,6 +225,7 @@ main {
   align-items: center;
   width: 90%;
   max-width: 1000px;
+  margin: 50px;
 }
 
 .videomapcontainer {
@@ -211,9 +235,11 @@ main {
   align-items: center;
 }
 
-.videomapcontainer h1 {
+.videomapcontainer h1,
+.videomapcontainer p {
   text-align: center;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -324,8 +350,23 @@ main {
   .pizzabox {
     display: none;
   }
+
   .home_articlecont,
   .home_articlecont_rev {
     flex-direction: column;
+  }
+
+  .menurow {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .escritorioOculto {
+    display: block;
+  }
+
+  .videomapbox {
+    margin: none;
   }
 }
