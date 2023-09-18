@@ -1,0 +1,47 @@
+@media (max-width: 991.98px) {
+  .navbox {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    height: 80px;
+  }
+
+  .pizzabox {
+    display: none;
+  }
+
+  .home_articlecont,
+  .home_articlecont_rev {
+    flex-direction: column;
+  }
+
+  .menurow {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .escritorioOculto {
+    display: block;
+  }
+
+  .videomapbox {
+    margin: none;
+  }
+
+  .section_title,
+  .home_article_title,
+  .home_article_title_rev,
+  .home_article_text {
+    text-align: center;
+  }
+
+  .section_titlecont {
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}

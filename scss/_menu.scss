@@ -1,0 +1,71 @@
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menumain {
+  @include flex-column;
+  align-items: center;
+  margin: 20px 0px;
+  gap: 20px;
+  width: 100%;
+}
+
+.menutitlebox {
+  @include flex-column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  p {
+    margin: 5px 0px;
+  }
+}
+
+.probando_style {
+  @include flex-column;
+  height: 100%;
+  padding: 10px;
+  gap: 5px;
+
+  p {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.menutitle {
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: -15px;
+  position: absolute;
+  background-color: white;
+}
+
+.menurow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.menucolumn {
+  @include flex-column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.menubox {
+  @include flex-column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid black;
+  width: 90%;
+  height: 100%;
+  max-width: 400px;
+}

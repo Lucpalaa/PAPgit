@@ -1,0 +1,22 @@
+.pie {
+  background-image: url(../img/fondohf.png);
+  background-position: center;
+}
+
+.piecontenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 3px;
+  color: rgb(53, 53, 53);
+}
+
+.itempie {
+  color: $color-whiteb;
+  font-family: $footer-font;
+  text-transform: uppercase;
+  font-style: oblique;
+  margin: 10px;
+}

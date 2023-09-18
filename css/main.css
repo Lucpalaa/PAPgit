@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap);
 body,
 html {
   margin: 0;
@@ -18,6 +19,30 @@ main {
   align-items: center;
 }
 
+.videomapbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px;
+}
+
+.videomapcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.videomapcontainer h1,
+.videomapcontainer p {
+  text-align: center;
+}
+
+.logo {
+  height: 100%;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -35,28 +60,43 @@ main {
 
 .navlist {
   list-style: none;
+  transition: background-color 0.3s;
+  padding: 5px;
 }
-
-.navbar a {
-  color: rgb(231, 227, 227);
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium";
+.navlist:hover {
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.navlist:hover a {
+  color: black;
 }
 
 .navbar {
   background-image: url(../img/fondohf.png);
   background-position: bottom;
 }
+.navbar a {
+  color: rgb(231, 227, 227);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium";
+}
 
 .burguer {
   border: 1px solid rgba(255, 255, 255, 0.815);
   border-radius: 5px;
 }
+.burguer:hover {
+  background-color: rgb(143, 138, 138);
+  transition: background-color 0.3s;
+}
 
-.divbarraprov {
-  width: 100%;
-  height: 1px;
-  background-color: black;
+.img-carousel {
+  height: 300px;
+  object-fit: contain;
+}
+
+.carousel-container {
+  margin: 20px 5px;
 }
 
 .divisoryHome {
@@ -64,18 +104,6 @@ main {
   height: 2px;
   background-color: rgb(216, 211, 211);
   margin: 50px 0px;
-}
-
-.divisory {
-  width: 90%;
-  height: 2px;
-  background-color: rgb(216, 211, 211);
-  margin: 20px 0px;
-  max-width: 400px;
-}
-
-.escritorioOculto {
-  display: none;
 }
 
 .section_titlecont {
@@ -135,27 +163,20 @@ main {
   max-width: 400px;
 }
 
-.pizzabox {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 200px;
-  margin: 10px 0px;
-}
-
-.fotopizza {
-  height: 100%;
-  aspect-ratio: 1/1;
-}
-
 .w80 {
   width: 80%;
   margin-bottom: 50px;
 }
 
+.iframe {
+  width: 100%;
+  margin: 20px 0px 50px;
+}
+
 .menumain {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   align-items: center;
   margin: 20px 0px;
   gap: 20px;
@@ -170,7 +191,6 @@ main {
   position: relative;
   width: 100%;
 }
-
 .menutitlebox p {
   margin: 5px 0px;
 }
@@ -178,11 +198,11 @@ main {
 .probando_style {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   height: 100%;
   padding: 10px;
   gap: 5px;
 }
-
 .probando_style p {
   text-align: center;
   margin: auto;
@@ -208,8 +228,8 @@ main {
 .menucolumn {
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-grow: 1;
+  align-items: center;
   gap: 20px;
   width: 100%;
 }
@@ -217,9 +237,9 @@ main {
 .menubox {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
   padding: 20px;
-  flex-grow: 1;
   align-items: center;
   border: 1px solid black;
   width: 90%;
@@ -227,38 +247,8 @@ main {
   max-width: 400px;
 }
 
-.logo {
-  height: 100%;
-}
-
-.img-carousel {
-  height: 300px;
-  object-fit: contain;
-}
-
-.carousel-container {
-  margin: 20px 5px;
-}
-
-.videomapbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  max-width: 1000px;
-  margin: 50px;
-}
-
-.videomapcontainer {
-  display: flex;
-  flex-direction: column;
+.video {
   width: 100%;
-  align-items: center;
-}
-
-.videomapcontainer h1,
-.videomapcontainer p {
-  text-align: center;
 }
 
 .contact {
@@ -268,8 +258,10 @@ main {
   margin: 0px 20px;
   max-width: 600px;
 }
+.contact h1 {
+  margin: 20px 0px;
+}
 
-.contact h1,
 h2 {
   margin: 20px 0px;
 }
@@ -301,15 +293,25 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  width: 85%;
-  gap: 50px;
+  width: 81%;
+  gap: 20px;
   margin-bottom: 20px;
 }
 
 .button {
+  font-family: "Franklin Gothic Medium";
   border-radius: 20px;
   padding: 10px 15px;
-  background-color: #4a4a4a;
+  background-color: black;
+  transition: background-color 0.1s;
+}
+.button:hover {
+  background-color: aliceblue;
+  transition: background-color 0.3s;
+  border-radius: 20px;
+}
+.button:hover a {
+  color: black;
 }
 
 .contactbuttons a {
@@ -321,22 +323,6 @@ h2 {
   display: flex;
   margin-bottom: 30px;
   gap: 20px;
-}
-
-/* .contact_links a {
-  text-decoration: none;
-  color: aliceblue;
-  border: 2px solid #4a4a4a;
-  background-color: #4a4a4a;
-} */
-
-.iframe {
-  width: 100%;
-  margin: 20px 0px 50px;
-}
-
-.video {
-  width: 100%;
 }
 
 .pie {
@@ -362,52 +348,44 @@ h2 {
   margin: 10px;
 }
 
-/* MEDIA CUERIS */
-
 @media (max-width: 991.98px) {
   .navbox {
     gap: 8px;
   }
 }
-
 @media (max-width: 767.98px) {
   .header {
     height: 80px;
   }
-
   .pizzabox {
     display: none;
   }
-
   .home_articlecont,
   .home_articlecont_rev {
     flex-direction: column;
   }
-
   .menurow {
     align-items: center;
     flex-direction: column;
     gap: 20px;
   }
-
   .escritorioOculto {
     display: block;
   }
-
   .videomapbox {
     margin: none;
   }
-
   .section_title,
   .home_article_title,
   .home_article_title_rev,
   .home_article_text {
     text-align: center;
   }
-
   .section_titlecont {
     width: 100%;
     margin-bottom: 20px;
     justify-content: center;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
