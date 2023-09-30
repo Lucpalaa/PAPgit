@@ -3,7 +3,7 @@
 
 Pizza Alla Pala (PAP) es un proyecto ficticio que no tiene nada que ver con la marca registrada, con el fin de exponer lo que fui aprendiendo durante estos 2 meses de cursada en 
 ✨CODERHOUSE (Desarrollo Web).✨
-Agradezco a los profesores y tutores que fueron parte de mi desarrollo en éste nuevo camino como developer😄
+# Agradezco a los profesores y tutores que fueron parte de mi desarrollo en éste nuevo camino como developer.😄
 
 ## Tecnologías utilizadas:
 
