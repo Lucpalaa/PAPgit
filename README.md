@@ -34,5 +34,6 @@ Pizza Alla Pala (PAP) es un proyecto ficticio que no tiene nada que ver con la m
 
 ## Vinculos:
 
--https://github.com/Lucpalaa/ProyectoFinal-Palavecino
--https://proyectopap-coder.netlify.app/
+- https://proyectopap-coder.netlify.app/
+- https://lucpalaa.github.io/ProyectoFinal-Palavecino/
+- https://github.com/Lucpalaa/ProyectoFinal-Palavecino
