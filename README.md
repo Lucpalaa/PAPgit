@@ -1,4 +1,4 @@
-# Pizza Alla Pala (PAP) _
+# Pizza Alla Pala (PAP) 
 ## _Proyecto Final_
 
 Pizza Alla Pala (PAP) es un proyecto ficticio que no tiene nada que ver con la marca registrada, con el fin de exponer lo que fui aprendiendo durante estos 2 meses de cursada en 
@@ -35,3 +35,4 @@ Pizza Alla Pala (PAP) es un proyecto ficticio que no tiene nada que ver con la m
 ## Vinculos:
 
 -https://github.com/Lucpalaa/ProyectoFinal-Palavecino
+-https://proyectopap-coder.netlify.app/
